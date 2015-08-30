@@ -1,18 +1,24 @@
-{"version": 1,
- "config": {
-    "frame" : "",
-    "arm" : "",
-    "fc" : "",
-    "osd" : "",
-    "receiver" : "",
-    "flightcam" : "",
-    "hqcam" : "",
-    "esc" : "",
-    "motor" : "",
-    "videotx" : "",
-    "blackbox" : "",
-    "voltagereg" : "",
-    "prop" : [],
-    "battery" : []
-  }
+{
+  "config": {
+    "frame": "Lumenier/QAV250-Mini-FPV-Quadcopter---Carbon-Fiber-Edition",
+    "esc": "DYS/Mini-20A",
+    "motor": "Sunnysky/X2204-2300kv",
+    "fc": "Armattan/Mullet-32",
+    "prop": [
+      "HQProp/6x4.5-CF-DD"
+    ],
+    "arm": "",
+    "battery": [
+      "Lumenier/1300mAh-4s-60c-Lipo",
+      "Lumenier/1800mAh-4s-75c-Lipo"
+    ],
+    "osd": "ReadyToFlyQuads/Micro-MinimOSD",
+    "receiver": "FrSky/D8R-II-Plus",
+    "flightcam": "PZ0420M",
+    "hqcam": "RunCam/HD",
+    "videotx": "Boscam/TS832-FPV-5.8G-32CH-600mw-Wireless-AV-Transmitter",
+    "blackbox": "ReadyToFlyQuads/SD-Data-Logger",
+    "voltagereg": "GetFPV-Affiliate/Atas-Pro-Mini-Power-Distribution-Board"
+  },
+  "version": 1
 }
